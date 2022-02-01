@@ -1,3 +1,2 @@
-# creativeCode
-
-Hello world CreativeCode_2
+# creativeCodea
+let distance=23;
