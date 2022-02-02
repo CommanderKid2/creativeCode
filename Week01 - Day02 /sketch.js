@@ -2,13 +2,13 @@
 
 
 function setup() {
-    createCanvas(500,500)
+    createCanvas(500,500) 
     background(0);
 }
 
 
 function draw() {
-    drawBoxes(50);
+    drawBoxes(25);
 }
 
 
