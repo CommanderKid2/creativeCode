@@ -1,6 +1,4 @@
 
-
-
 function setup() {
     createCanvas(500,500) 
     background(0);
@@ -8,15 +6,17 @@ function setup() {
 
 
 function draw() {
-    drawBoxes(25);
+    drawBoxes(5, color,('magenta'));
+
+
 }
 
 
-function drawBoxes(numBoxes) {
+function drawBoxes(numBoxes,storkeColor) {
     let boxSize = width/numBoxes;
     console.log(boxSize)
-    fill (255,0,0)
-    stroke(255)
+    fill (25,0,0)
+    stroke('magenta')
     for(let j=0; j<numBoxes; j++){
             for (let i=0; i<numBoxes; i++){
                 rect (boxSize*i, boxSize*j, boxSize,boxSize)
