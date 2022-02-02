@@ -18,7 +18,7 @@ function draw(){
 
 
 function drawBoxes(){
-    fill (255,0,0)
+    fill (254,0,0)
     noStroke()
     for(let i=0; i<numBoxes; i++){
         let totalSpace=boxWidth+ spacing;
